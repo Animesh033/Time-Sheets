@@ -1,0 +1,41 @@
+.add_more{
+	cursor: pointer;
+	margin-top: 2.3rem;
+}
+/*
+Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap
+
+Small devices (landscape phones, 576px and up)
+*/
+
+@media (min-width: 576px) {
+	#timesheet-submit{
+		margin-top: -93px;
+		margin-left: 408px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	#timesheet-submit{
+		margin-top: -93px;
+		margin-left: auto;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	#timesheet-submit{
+		margin-top: -93px;
+		margin-left: auto;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	#timesheet-submit{
+		margin-top: -93px;
+		margin-left: auto;
+	}
+}
